@@ -27,29 +27,10 @@ End-to-end object detection pipeline trained on UK traffic footage — covering 
 
 ```
 Day-2-UK-Vehicle-Detection/
-├── Input/                         # Raw dataset (not tracked by git)
-│   └── united-kingdom-dataset/
-│       ├── train/
-│       ├── valid/
-│       ├── test/
-│       └── data.yaml
-├── Model Weights/                 # best.pt saved here after training
-├── notebooks/
-│   └── day2-uk-vehicle-fromscratch.ipynb
-└── Output/
-    ├── eda_class_distribution.png
-    ├── eda_image_stats.png
-    ├── eda_bbox_analysis.png
-    ├── eda_sample_images.png
-    ├── training_curves.png
-    ├── evaluation_plots.png
-    ├── val_predictions.png
-    ├── inference_stats.png
-    ├── inference_log.csv
-    └── uk_inference_output.mp4
-```
+├── README.MD                 
+├── day2-uk-vehicle-fromscratch.ipynb
 
----
+```
 
 ## Pipeline Phases
 
@@ -139,17 +120,6 @@ model.predict("your_video.mp4", conf=0.35, save=True)
 
 ---
 
-## Key Results
-
-| Metric | Value |
-|--------|-------|
-| mAP@50 | _(see Output/evaluation_plots.png)_ |
-| mAP@50:95 | _(see Output/evaluation_plots.png)_ |
-| Best Epoch | _(logged in training_curves.png)_ |
-
-> Results depend on the specific Roboflow dataset version used. Refer to the output plots for exact numbers from your training run.
-
----
 
 ## Tech Stack
 
@@ -161,17 +131,9 @@ model.predict("your_video.mp4", conf=0.35, save=True)
 ![Kaggle](https://img.shields.io/badge/Platform-Kaggle_P100-20BEFF)
 
 ---
+### 2. Download Weights 
 
-## 30-Day CV Portfolio
-
-| Day | Project | Model |
-|-----|---------|-------|
-| Day 1 | ConstructionGuard-AI — Helmet Detection | YOLOv8n |
-| **Day 2** | **UK Vehicle Detection & Tracking** | **YOLOv8m** |
-| Day 3 | Face Mask Detection | MobileNetV2 |
-| Day 4 | Gun Detection for Surveillance | YOLOv8s |
-| Day 5 | Multi-Class Grocery Counter | YOLOv8m |
-| ... | ... | ... |
+Get a free API key from https://drive.google.com/file/d/1zCcGeY2vwBFvejxeTTQP_Q-AZf_FOHbc/view?usp=drive_link and run:
 
 ---
 
