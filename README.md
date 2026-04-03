@@ -90,8 +90,8 @@ UK-specific augmentation decisions are documented in the notebook:
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/QadeerDev/30-day-cv-portfolio.git
-cd 30-day-cv-portfolio/Day-2-UK-Vehicle-Detection
+git clone https://github.com/QadeerDev/UK-Vehicle-Detection-from-Scratch-with-YOLOv8m.git
+cd UK-Vehicle-Detection-from-Scratch-with-YOLOv8m
 pip install ultralytics roboflow supervision
 ```
 
